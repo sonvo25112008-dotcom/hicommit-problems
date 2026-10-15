@@ -5,9 +5,9 @@ int main() {
   scanf ("%d",&n);
 
   if (n % 2==0){
-    printf ("%d so chan",n);}
+    printf ("CHAN");}
   else{
-    printf ("%d so le", n);
+    printf ("LE");
 }
   return 0;
 }
