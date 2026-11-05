@@ -11,7 +11,7 @@ int main() {
   else if (7.0<=dtb && dtb<8.0){
     printf ("KHA", &dtb);
   }
-  else (dtb<7.0 && drl<70){
+  else{
     printf ("KHONG_DAT", &dtb, &drl);
   }
   return 0;
