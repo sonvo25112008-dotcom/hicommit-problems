@@ -19,6 +19,4 @@ int main (){
       printf ("KHONG_HOP_LE"); 
       return 0;
   }
-
-}
 }
