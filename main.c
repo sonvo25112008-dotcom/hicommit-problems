@@ -2,7 +2,7 @@
 int main() {
   int dtb, drl;
   scanf("%f%f", dtb, &drl);
-  if (dtb>=9.0 && drl>=90){
+  if (dtb>=9.0){
     printf ("XUAT_SAC",&dtb);
   }
   else if (8.0<=dtb && dtb<9.0){
