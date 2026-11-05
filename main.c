@@ -14,6 +14,5 @@ int main() {
   else
     printf ("KHONG_DAT", &dtb, &drl);
   }
-  
   return 0;
 }
