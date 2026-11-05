@@ -17,8 +17,8 @@ int main (){
       break;
     default:
       printf ("KHONG_HOP_LE"); 
+      return 0;
   }
 
 }
-  return 0;
 }
