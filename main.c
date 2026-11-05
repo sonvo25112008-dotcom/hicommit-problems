@@ -2,17 +2,18 @@
 int main() {
   int dtb, drl;
   scanf("%f%f", dtb, &drl);
-  if (dtb>=9.0){
-    printf ("XUAT_SAC",&dtb);
+  if (dtb>=9.0 && drl >=90){
+    printf ("HOC_BONG_XUAT_SAC");
   }
-  else if (8.0<=dtb && dtb<9.0){
-    printf ("GIOI", &dtb);
+  else if ((8.0<=dtb<9.0 && 80<=drl<90 || drl>=90) || dtb>=9.0 && drl>=90){
+    printf ("HOC_BONG_GIOI");
   }
-  else if (7.0<=dtb && dtb<8.0){
+  else if ((7.0<=dtb<8.0 && 70<=drl<80 || 80<=drl<90 || drl>=90) || (8.0<=dtb<9.0 && 70<=drl<80) || (dtb>9.0 && 70<=drl<80)){
     printf ("KHA", &dtb);
   }
-  else{
+  else
     printf ("KHONG_DAT", &dtb, &drl);
   }
+  
   return 0;
 }
