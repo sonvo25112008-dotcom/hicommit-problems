@@ -9,10 +9,10 @@ int main() {
     printf ("HOC_BONG_GIOI");
   }
   else if ((7.0<=dtb<8.0 && 70<=drl<80 || 80<=drl<90 || drl>=90) || (8.0<=dtb<9.0 && 70<=drl<80) || (dtb>9.0 && 70<=drl<80)){
-    printf ("KHA", &dtb);
+    printf ("KHA");
   }
   else
-    printf ("KHONG_DAT", &dtb, &drl);
+    printf ("KHONG_DAT");
   }
   return 0;
 }
